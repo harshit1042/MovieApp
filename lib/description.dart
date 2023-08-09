@@ -72,7 +72,7 @@ class Description extends StatelessWidget {
                   width: 100,
                   child: Image.network(posterurl),
                 ),
-                Flexible(
+                Flexible( 
                   child: modified_text(
                       text: description, color: Colors.white, size: 16),
                 ),
